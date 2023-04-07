@@ -2,26 +2,46 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap');
+
+*{
+  font-family: 'Open Sans', sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+:root,
+#root,
+#docs-root {
+  --searchbar-mic-border-color: linear-gradient(rgba(167, 62, 231, 1), rgba(0, 235, 255, 1));
+  --video-container-bg-color: linear-gradient(180deg, #2B2F53 3.16%, #1D1C34 36.05%);
+  --video-description-bg-color: linear-gradient(180deg, rgba(72, 49, 157, 0.2) 18.75%, rgba(72, 49, 157, 0) 100%);
+  --video-container-boxshadow-color: -10px 30px 80px rgba(59, 38, 123, 0.7);
+  --left-side-bar-bg-color: linear-gradient(168.44deg, #2E335A 1.62%, #1C1B33 95.72%);
+  --secondary-text-color: rgba(235, 235, 245, 0.6);
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+main{
+  background: linear-gradient(168.44deg, #2E335A 1.62%, #1C1B33 95.72%);
 }
+
+section{
+  background: linear-gradient(180deg, #2B2F53 3.16%, #1D1C34 36.05%);
+  box-shadow: -10px 30px 80px rgba(59, 38, 123, 0.7);
+}
+
+aside{
+  background: linear-gradient(168.44deg, #2E335A 1.62%, #1C1B33 95.72%);
+}
+
+.card_description_bg{
+  background: linear-gradient(180deg, rgba(72, 49, 157, 0.2) 18.75%, rgba(72, 49, 157, 0) 100%);
+}
+
+.rounded_design_gradient{
+  border: 1px solid linear-gradient(#A73EE7, #00EBFF);
+}
+
+hr{
+  background: linear-gradient(270deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2995) 50.4%, rgba(255, 255, 255, 0) 96.77%);
+  background-blend-mode: overlay;
+}
+
