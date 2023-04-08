@@ -32,7 +32,7 @@ const UpperNavigation = () => {
               right-2
               top-[50%]
               -translate-y-[50%]
-              border
+              mic_border
               rounded-full
               flex
               items-center
