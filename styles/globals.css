@@ -36,8 +36,15 @@ aside{
   background: linear-gradient(180deg, rgba(72, 49, 157, 0.2) 18.75%, rgba(72, 49, 157, 0) 100%);
 }
 
-.rounded_design_gradient{
-  border: 1px solid linear-gradient(#A73EE7, #00EBFF);
+input{
+  background: linear-gradient(135deg, rgba(15, 85, 232, 0.1) 0%, rgba(157, 223, 243, 0.1) 100%);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 40px;
+}
+
+.purple_filter{
+  background: linear-gradient(180deg, rgba(196, 39, 251, 0) 0%, rgba(196, 39, 251, 0.2) 82.14%);
+  filter: blur(20px);
 }
 
 hr{
