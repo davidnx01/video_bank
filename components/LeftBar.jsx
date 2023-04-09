@@ -4,7 +4,7 @@ import SideBarList from './SideBarList'
 
 const LeftBar = () => {
   return (
-    <aside className="h-[900px] overflow-auto w-full p-[22px] rounded-3xl">
+    <aside className="h-[900px] overflow-auto w-full p-[22px] rounded-3xl relative z-10">
         <div className='flex flex-row items-center gap-3'>
             <div className='h-4 w-4 rounded-full bg-orange-500 cursor-pointer'></div>
             <div className='h-4 w-4 rounded-full bg-yellow-500 cursor-pointer'></div>

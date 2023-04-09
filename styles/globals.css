@@ -60,3 +60,9 @@ hr{
   background: linear-gradient(rgba(196, 39, 251, 0.2) 20%, rgba(196, 39, 251, 0.8) 40%, rgba(196, 39, 251, 0.2) 30%);
   background-blend-mode: overlay;
 }
+
+.video_card_border{
+  border-top: 1px solid rgba(255,255,255,0.3);
+  border-left: 1px solid rgba(255,255,255,0.12);
+  border-right: 1px solid rgba(255,255,255,0.12);
+}

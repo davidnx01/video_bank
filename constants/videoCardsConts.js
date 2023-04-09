@@ -1,8 +1,8 @@
 export const videoCardContent = [
     {
-        thumbnail: "/images/FirstThumbnail",
+        thumbnail: "/images/FirstThumbnail.png",
         duration: "4:30",
-        creatorProfile: "/images/FirstCreator",
+        creatorProfile: "/images/FirstCreator.png",
         videoTitle: "Design and Prototype an App with Play - Full 3-hour Course",
         creatorName: "DESIGNCODE",
         views: "14k views",
@@ -10,9 +10,9 @@ export const videoCardContent = [
     },
 
     {
-        thumbnail: "/images/SecondThumbnail",
+        thumbnail: "/images/SecondThumbnail.png",
         duration: "12:30",
-        creatorProfile: "/images/SecondCreator",
+        creatorProfile: "/images/SecondCreator.png",
         videoTitle: "Create 3D Site with Spline and React - Full Course",
         creatorName: "DESIGNCODE",
         views: "84k views",
@@ -20,9 +20,9 @@ export const videoCardContent = [
     },
 
     {
-        thumbnail: "/images/ThirdThumbnail",
+        thumbnail: "/images/ThirdThumbnail.png",
         duration: "16:20",
-        creatorProfile: "/images/ThirdCreator",
+        creatorProfile: "/images/ThirdCreator.png",
         videoTitle: "How to Use AI Art Generator on Midjourney",
         creatorName: "DESIGNCODE",
         views: "15k views",
@@ -30,9 +30,9 @@ export const videoCardContent = [
     },
 
     {
-        thumbnail: "/images/FourthThumbnail",
+        thumbnail: "/images/FourthThumbnail.png",
         duration: "40:36",
-        creatorProfile: "/images/FourthCreator",
+        creatorProfile: "/images/FourthCreator.png",
         videoTitle: "Desktop App UI Design in Figma - Full Course",
         creatorName: "DESIGNCODE",
         views: "105k views",
@@ -40,9 +40,9 @@ export const videoCardContent = [
     },
 
     {
-        thumbnail: "/images/FifthThumbnail",
+        thumbnail: "/images/FifthThumbnail.png",
         duration: "5:50",
-        creatorProfile: "/images/FifthCreator",
+        creatorProfile: "/images/FifthCreator.png",
         videoTitle: "Design and Prototype an App with Play - Full 3-hour Course",
         creatorName: "DESIGNCODE",
         views: "147k views",
@@ -50,9 +50,9 @@ export const videoCardContent = [
     },
 
     {
-        thumbnail: "/images/SixthThumbnail",
+        thumbnail: "/images/SixthThumbnail.png",
         duration: "54:30",
-        creatorProfile: "/images/SixthCreator",
+        creatorProfile: "/images/SixthCreator.png",
         videoTitle: "Build a 3D Site Without Code with Framer - Crash Course",
         creatorName: "DESIGNCODE",
         views: "484k views",
