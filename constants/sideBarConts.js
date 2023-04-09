@@ -1,9 +1,9 @@
-import { 
-    HiOutlineHome, 
-    HiOutlinePlayCircle, 
-    HiOutlineWallet, 
-    HiOutlineMusicalNote 
-} from "react-icons/hi";
+import {
+    AiOutlineHome,
+    AiOutlinePlaySquare,
+    AiOutlineCheckCircle,
+    AiOutlineSound
+} from "react-icons/ai"
 
 import { 
     MdOutlineVideoLibrary, 
@@ -19,49 +19,65 @@ import {
 
 export const sideBarContsMain = [
     {
-        icon: <HiOutlineHome />,
+        icon: <AiOutlineHome size={22}/>,
         label: "Home",
     },
     {
-        icon: <HiOutlinePlayCircle />,
-        label: "Shorts",
+        icon: <AiOutlinePlaySquare size={22}/>,
+        label: "Shorts"
     },
     {
-        icon: <HiOutlineWallet />,
-        label: "Subscriptions",
+        icon: <AiOutlineCheckCircle size={22}/>,
+        label: "Subscriptions"
     },
     {
-        icon: <HiOutlineMusicalNote />,
-        label: "Papaya Music",
-    },
+        icon: <AiOutlineSound size={22}/>,
+        label: "Papaya Music"
+    }
 ]
 
 export const sideBarContsChannel = [
     {
-        title: "MY CHANNEL"
-    },
-    {
-        icon: <MdOutlineVideoLibrary />,
+        icon: <MdOutlineVideoLibrary size={22}/>,
         label: "Library",
     },
     {
-        icon: <MdOutlineHistory />,
+        icon: <MdOutlineHistory size={22}/>,
         label: "History",
     },
     {
-        icon: <MdOutlineVideocam />,
+        icon: <MdOutlineVideocam size={22}/>,
         label: "Your Videos",
     },
     {
-        icon: <MdOutlineWatchLater />,
+        icon: <MdOutlineWatchLater size={22}/>,
         label: "Watch Later",
     },
     {
-        icon: <MdOutlineDownload />,
+        icon: <MdOutlineDownload size={22}/>,
         label: "Downloads",
     },
     {
-        icon: <RiArrowDownSLine />,
+        icon: <RiArrowDownSLine size={22}/>,
         label: "Show More",
+    },
+]
+
+export const sideBarContsSubs = [
+    {
+        logo: "/images/SubOne.png",
+        label: "Design Code",
+    },
+    {
+        logo: "/images/SubTwo.png",
+        label: "Figma",
+    },
+    {
+        logo: "/images/SubThree.png",
+        label: "Sketch",
+    },
+    {
+        logo: "/images/SubFour.png",
+        label: "Spline",
     },
 ]

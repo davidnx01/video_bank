@@ -16,7 +16,7 @@ const VideoCard = () => {
           </div>
 
           <div className='w-full pt-6 pb-2 px-4 flex flex-row card_description_bg gap-4'>
-            <div className='h-[40px] w-[40px]'>
+            <div className='h-[40px] w-[50px]'>
               <img 
                 src={video.creatorProfile} 
                 alt="Avatar" 
@@ -28,7 +28,7 @@ const VideoCard = () => {
               <p className='text-gray-400 text-sm mt-2'>{video.creatorName}</p>
               <div className='flex flex-row text-gray-400 mt-2 text-sm'>
                 <p>{video.views}</p>
-                <p>-</p>
+                <p>&nbsp;-&nbsp;</p>
                 <p>{video.uploadDate}</p>
               </div>
             </div>

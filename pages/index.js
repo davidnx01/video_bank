@@ -1,6 +1,7 @@
 import LeftBar from "@/components/LeftBar";
 import Navigation from "@/components/Navigation";
 import VideoContent from "@/components/VideoContent";
+import PerfectScrollbar from 'perfect-scrollbar';
 
 export default function Home() {
   return (

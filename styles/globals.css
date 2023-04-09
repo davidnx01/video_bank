@@ -51,9 +51,10 @@ input{
   filter: blur(20px);
 }
 
-hr{
-  background: linear-gradient(270deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2995) 50.4%, rgba(255, 255, 255, 0) 96.77%);
-  background-blend-mode: overlay;
+.side_bar_line{
+  background: linear-gradient(270deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.12) 50.4%, rgba(255, 255, 255, 0) 96.77%);
+  height: 1px;
+  width: 100%;
 }
 
 .purple_bottom_border {
@@ -65,4 +66,13 @@ hr{
   border-top: 1px solid rgba(255,255,255,0.3);
   border-left: 1px solid rgba(255,255,255,0.12);
   border-right: 1px solid rgba(255,255,255,0.12);
+}
+
+::-webkit-scrollbar{
+  background-color: rgba(51, 38, 99, 0.5);
+  width: 4px;
+}
+
+::-webkit-scrollbar-thumb{
+  background: rgb(168, 149, 175);
 }
